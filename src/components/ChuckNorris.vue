@@ -32,12 +32,13 @@
             </div>
 
             <!-- Search box -->
-            <div class="mb-6 px-4">
-                <div class="flex">
+            <div class="mb-6 px-4 w-full max-w-md mx-auto">
+                <div class="flex w-full">
                     <input v-model="searchQuery" type="text" :placeholder="$t('searchPlaceholder')"
-                        class="flex-grow p-2 border-2 border-purple-500 bg-black text-white" @keyup.enter="searchJokes">
+                        class="flex-grow min-w-0 p-2 border-2 border-purple-500 bg-black text-white text-sm sm:text-base"
+                        @keyup.enter="searchJokes">
                     <button @click="searchJokes"
-                        class="btn-retro bg-purple-600 hover:bg-purple-500 text-white p-2 uppercase">
+                        class="btn-retro bg-purple-600 hover:bg-purple-500 text-white p-2 uppercase text-xs sm:text-sm">
                         {{ $t('search') }}
                     </button>
                 </div>
