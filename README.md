@@ -35,7 +35,7 @@ Built with Vue.js and styled with Tailwind CSS, the app offers both English and 
 ## 🖥️ Screenshots
 
 <div align="center">
-  <img src="/api/placeholder/800/400" alt="Chuck Norris Jokes App Screenshot" />
+  <img src="/public/cnscreen1.png" alt="Chuck Norris Jokes App Screenshot" />
 </div>
 
 ## 🛠️ Technologies
